@@ -70,7 +70,7 @@
   } //endwhile
   
 	if(!$exists){ // checks if user already exists
-		mysqli_query($conn, "INSERT INTO Users (username, password,) VALUES ('$username','$password')"); //Inserts the value to table users
+		mysqli_query($conn, "INSERT INTO Users (username, password) VALUES ('$username','$password')"); //Inserts the value to table users
 		Print '<script>alert("Successfully Registered!");</script>'; 
 		Print '<script>window.location.replace("../index.php?page=register");</script>'; 
   } //endif
