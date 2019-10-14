@@ -38,7 +38,8 @@
                                 to the German speaking community. All under one,
                                 united banner: the Kingdom of Belgium.
                             </p>
-                            <button type="button" name="btn_people" id="btn_people" class="btn btn-light btn-block mt-auto">Learn More</button>
+                            <button type="button" name="btn_people" id="btn_people" class="btn btn-light btn-block mt-auto"
+                            data-toggle="collapse" href="#people" aria-expanded="false" aria-controls="people">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -58,7 +59,8 @@
                                 one of the most beautiful countries
                                 to date.
                             </p>
-                            <button type="button" name="btn_landscape" id="btn_landscape" class="btn btn-light btn-block mt-auto">Learn More</button>
+                            <button type="button" name="btn_landscape" id="btn_landscape" class="btn btn-light btn-block mt-auto"
+                            data-toggle="collapse" href="#landscape" aria-expanded="false" aria-controls="landscape">Learn More</button>
                         </div>
                     </div>
                 </div>
@@ -78,8 +80,78 @@
                                 historic, victorian buildings and modern 
                                 architecture.
                             </p>
-                            <button type="button" name="btn_cities" id="btn_cities" class="btn btn-light btn-block mt-auto">Learn More</button>
+                            <button type="button" name="btn_cities" id="btn_cities" class="btn btn-light btn-block mt-auto"
+                            data-toggle="collapse" href="#people" aria-expanded="false" aria-controls="people">Learn More</button>
                         </div>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse" id="people">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text lead">
+                            Belgians (Dutch: Belgen, French: Belges, German: Belgier) are people identified with the Kingdom of Belgium, 
+                            a federal state in Western Europe. As Belgium is a multinational state, this connection may be residential, 
+                            legal, historical, or cultural rather than ethnic. The majority of Belgians, however, belong to two distinct 
+                            ethnic groups or communities (Dutch: gemeenschap or French: communauté) native to the country, i.e. its historical 
+                            regions: Flemings in Flanders, who speak Dutch and Walloons in Wallonia who speak French or Walloon. There is also a 
+                            substantial Belgian diaspora, which has settled primarily in the United States, Canada, France and Netherlands.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse" id="landscape">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">
+                            <p class="lead">
+                                Belgium shares borders with France (620 km), Germany (167 km), Luxembourg (148 km) and the Netherlands (450 km). 
+                                Its total surface, including water area, is 30,688 km2 (11,849 sq mi). Before 2018, its total area was believed 
+                                to be 30,528 km2 (11,787 sq mi). However, when the country's statistics were measured in 2018, a new calculation 
+                                method was used. Unlike previous calculations, this one included the area from the coast to the low-water line, 
+                                revealing the country to be 160 km2 (62 sq mi) larger in surface area than previously thought.[34][35] Its land area 
+                                alone is 30,278 km2.[36][needs update] It lies between latitudes 49°30' and 51°30' N, and longitudes 2°33' and 6°24' E.[37]
+                                Belgium has three main geographical regions; the coastal plain in the northwest and the central plateau both 
+                                belong to the Anglo-Belgian Basin, and the Ardennes uplands in the southeast to the Hercynian orogenic belt. The Paris 
+                                Basin reaches a small fourth area at Belgium's southernmost tip, Belgian Lorraine.[38]
+                            </p>
+                            <p class="lead">
+                                The coastal plain consists mainly of sand dunes and polders. Further inland lies a smooth, slowly rising landscape irrigated 
+                                by numerous waterways, with fertile valleys and the northeastern sandy plain of the Campine (Kempen). The thickly forested 
+                                hills and plateaus of the Ardennes are more rugged and rocky with caves and small gorges. Extending westward into France, 
+                                this area is eastwardly connected to the Eifel in Germany by the High Fens plateau, on which the Signal de Botrange forms 
+                                the country's highest point at 694 m (2,277 ft).[39][40]
+                            </p>
+                            <p class="lead">
+                                The climate is maritime temperate with significant precipitation in all seasons (Köppen climate classification: Cfb), like 
+                                most of northwest Europe.[41] The average temperature is lowest in January at 3 °C (37.4 °F) and highest in July at 18 °C (64.4 °F). 
+                                The average precipitation per month varies between 54 mm (2.1 in) for February and April, to 78 mm (3.1 in) for July.[42] Averages for 
+                                the years 2000 to 2006 show daily temperature minimums of 7 °C (44.6 °F) and maximums of 14 °C (57.2 °F) and monthly rainfall of 74 mm 
+                                (2.9 in); these are about 1 °C and nearly 10 millimetres above last century's normal values, respectively.[43]
+                            </p>
+                            <p class="lead">
+                                Phytogeographically, Belgium is shared between the Atlantic European and Central European provinces of the Circumboreal 
+                                Region within the Boreal Kingdom.[44] According to the World Wide Fund for Nature, the territory of Belgium belongs to 
+                                the ecoregion of Atlantic mixed forests.[45] Because of its high population density, industrialization and its location 
+                                in the center of Western Europe, Belgium still faces some environmental problems. However, due to consistent efforts by the 
+                                various levels of government in Belgium, the state of the environment in Belgium is gradually improving. This led to Belgium 
+                                being ranked as one of the top 10 countries (9 out of 132) in terms of environmental protection trends, and to Belgium being 
+                                ranked in 2012 as the 24th country out of 132 for environmental protection. Belgium moreover has one of Europe's highest waste 
+                                recycling rates. In particular, the Flemish region of Belgium has the highest waste diversion rate in Europe. Almost 75 percent 
+                                of the residential waste produced there is reused, recycled, or composted.
+                            </p>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="collapse" id="cities">
+                <div class="card">
+                    <div class="card-body">
+                        <p class="card-text">
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. 
+                            Tenetur vitae neque dicta! Quae dolor nam eius dolores officiis porro, 
+                            corrupti libero similique a nihil tenetur, eaque sapiente. Explicabo, voluptatum nulla.
+                        </p>
                     </div>
                 </div>
             </div>
