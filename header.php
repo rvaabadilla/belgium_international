@@ -30,10 +30,13 @@
                                 </div>
                             </li>
                             <li class="nav-item active">
-                                <a class="nav-link lead" href="index.php?page=contact">Contact <span class="sr-only">(current)</span></a>
+                                <a class="nav-link lead" href="index.php?page=news">News</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link lead" href="index.php?page=contact">Contact</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link lead" href="index.php?page=tour">Digital Tour</a>
+                                <a class="nav-link lead" href="index.php?page=tour">Take a Tour</a>
                             </li>
                         </ul>
                     </div>
