@@ -9,13 +9,13 @@
         }
 
         public function fetch_all_news() {
-            $query = "SELECT * FROM news";
+            $query = "SELECT * FROM News";
             $results = mysqli_query($this->conn, $query) ;
             $rows = mysqli_fetch_all($results, MYSQLI_ASSOC);
             return $rows;
         }
         public function fetch_news_by_id(){
-            $query = "SELECT * FROM news WHERE id = $id";
+            $query = "SELECT * FROM News WHERE id = $id";
             $results = mysqli_query($this->conn, $query) ;
             $rows = mysqli_fetch_all($results, MYSQLI_ASSOC);
             return $rows;
